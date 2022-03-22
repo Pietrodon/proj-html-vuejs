@@ -1,6 +1,19 @@
 <template>
 <div id="app">
     <div class="container">
+        <div class="main-content">
+            <div class="content">
+                <div class="text-button">
+                    <h1>Distant learning for further expansion</h1>
+                    <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the preocess.</p>
+                </div>
+                <div class="main-image">
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 </div>
@@ -20,11 +33,22 @@ export default {
 
 <style lang="scss">
 .container{
-    width: 1170px;
-    height: 842px;
-    border: solid 1px red;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    .main-content{
+        width: 1170px;
+        height: 842px;
+        
+        .content{
+            width: 1290px;
+            height: 570px;
+            border: 1px solid red;
+            margin-top: 40px;
+        }
+    }
 }
 
 </style>
