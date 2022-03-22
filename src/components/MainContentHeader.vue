@@ -8,6 +8,7 @@
                     <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the preocess.</p>
                 </div>
                 <div class="main-image">
+                    <img src="..\img-header\about-me-profile.jpg" alt="" class="profile-img">
 
                 </div>
 
@@ -47,6 +48,17 @@ export default {
             height: 570px;
             border: 1px solid red;
             margin-top: 40px;
+            display: flex;
+
+            .text-button{
+                width: 456px; 
+            }
+            .main-image{
+
+                .profile-img{
+                    border-radius: 100%;
+                }
+            }
         }
     }
 }
