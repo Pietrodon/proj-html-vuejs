@@ -7,13 +7,18 @@
             </div>
             <div class="list">
                 <ul>
-                    <li>Home</li>
-                    <li>Pages</li>
-                    <li>Courses</li>
-                    <li>Features</li>
-                    <li>Blog</li>
-                    <li>Shop</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
                 </ul>
+                <div class="search-container">
+                    <input type="text" placeholder="Search..." class="input-search">
+                </div>
+                
+                
             </div>
               
           </div>
@@ -24,6 +29,7 @@
 </template>
 
 <script>
+
 
 
 
@@ -52,26 +58,49 @@ export default {
     
 
     .nav-bar{
-        
         width: 1170px;
         display: flex;
         justify-content: space-between;
             
         img{
+            margin-top: 28px;
             width: 160px;
         }
         .list{
             display: flex;
+            
 
             ul{
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+                margin-top: 25px;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
             li{
                 display: flex;
-                padding: 5px;
+                padding: 30px;
+
+                a{
+                    color: #0b0b0b;
+                }
+            }
+            }
+            .search-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .input-search{
+                background-color: #f6f3f5;
+                border: none;
+                border-radius: 8px;
+                width: 229px;
+                height: 45px;
+                
+            }
+            ::placeholder { 
+                color: #2c3e50;
             }
             }
         }
