@@ -42,14 +42,6 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  
-}
 .header-container{
     width: 100vw;
     height: 78px;
@@ -75,7 +67,7 @@ export default {
                 list-style: none;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                
 
             li{
                 display: flex;
@@ -88,19 +80,16 @@ export default {
             }
             .search-container{
                 display: flex;
-                justify-content: center;
                 align-items: center;
 
                 .input-search{
                 background-color: #f6f3f5;
                 border: none;
                 border-radius: 8px;
-                width: 229px;
-                height: 45px;
-                
+                padding: 15px;   
+                ::placeholder { 
+                color: #9ea4a5;
             }
-            ::placeholder { 
-                color: #2c3e50;
             }
             }
         }

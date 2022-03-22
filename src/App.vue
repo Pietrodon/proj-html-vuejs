@@ -1,29 +1,27 @@
 <template>
+  <div id="app">
     <HeaderComponent/>
+    <MainContentHeader/>
+  </div>
     
   
 </template>
 
 <script>
 import  HeaderComponent from "./components/HeaderComponent.vue";
+import  MainContentHeader from "./components/MainContentHeader.vue"
 
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
+    MainContentHeader,
    
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
- 
-}
+
 </style>
