@@ -7,12 +7,12 @@
             </div>
             <div class="list">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Home<i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Pages<i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Courses<i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Features<i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Blog<i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Shop<i class="fa-solid fa-angle-down"></i></a></li>
                     <i class="far fa-user-circle user"></i>
                 </ul>
                 <div class="search-container">
@@ -78,10 +78,15 @@ export default {
 
                 li{
                     display: flex;
-                    padding: 30px;
+                    padding: 20px;
 
                     a{
                         color: #0b0b0b;
+                        text-decoration: none;
+
+                        i{
+                            padding: 3px;
+                        }
                     }
 
                     

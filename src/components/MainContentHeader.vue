@@ -18,6 +18,9 @@
                 </div>
                 <div class="main-image">
                     <img src="../assets/img-header/about-me-profile.jpg" alt="" class="profile-img">
+                    <img src="../assets/img-header/maxcoach-shape-07-150x150.png" alt="" class="bg-image-2">
+                    <img src="../assets/img-header/maxcoach-shape-08.png" alt="" class="bg-image-1">
+                    
                 </div>
             </div>
             <div class="client-img">
@@ -63,7 +66,7 @@ export default {
 
     .main-content{
         width: 1170px;
-        height: 570px;
+        
 
 
         .client-img{
@@ -113,9 +116,10 @@ export default {
                         margin-right: 2px;
                     }
 
-                    // :hover{
-                    //     background-color: #3F3A64;
-                    // }
+                     &:hover{
+                         background-color: #3F3A64;
+                         cursor: pointer;
+                     }
                 }
                 .question{
                     color: #aeadae;
@@ -123,18 +127,37 @@ export default {
 
                     a{
                         color: #25ab94;
-                        font-weight: 800;  
+                        font-weight: 800;
+                        text-decoration-color: #aeadae;  
                     }
                 }
             }
             .main-image{
-
-
+                position: relative;
+                
+                
                 .profile-img{
-                    
+                    z-index: 22;
                     border-radius: 100%;
-                    width: 570px;
-                    height: 570px;
+                    width: 85%;
+                    height: 85%;
+                    margin-top: 15px;
+                    position: relative;
+                    
+                }
+
+                .bg-image-1{
+                    z-index: 0;
+                    position: absolute;
+                    top: 25%;
+                    right: 85%;
+                    height: 200px;
+                }
+                .bg-image-2{
+                    position: absolute;
+                    top: 65%;
+                    right: 15%;
+                    z-index: 0;
                 }
             }
         }
