@@ -4,6 +4,7 @@
     <MainContentHeader/>
     <CoursesComponent/>
     <SecondComponentMain/>
+    <CarouselComponent/>
     
   </div>
     
@@ -15,6 +16,7 @@ import  HeaderComponent    from "./components/HeaderComponent.vue";
 import  MainContentHeader  from "./components/MainContentHeader.vue";
 import  CoursesComponent   from "./components/CoursesComponent.vue";
 import  SecondComponentMain   from "./components/SecondComponentMain.vue";
+import  CarouselComponent   from "./components/CarouselComponent.vue";
 
 
 
@@ -25,6 +27,7 @@ export default {
     MainContentHeader,
     CoursesComponent,
     SecondComponentMain,
+    CarouselComponent,
    
   }
 }

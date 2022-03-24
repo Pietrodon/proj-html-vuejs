@@ -69,7 +69,6 @@
                             <i class="fas fa-arrow-right"></i>
                         </a>
                     </p>
-
                 </div>
                 
             </div>
