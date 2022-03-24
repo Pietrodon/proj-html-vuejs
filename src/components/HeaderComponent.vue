@@ -97,6 +97,7 @@ export default {
 
                         &:hover{
                         color: #25ab94;
+                        text-decoration: underline;
                     }
 
                         i{
