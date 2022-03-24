@@ -19,22 +19,52 @@
                 </div>
                 <div class="card-size">
                     <div class="card">
-                        <img src="../assets/img-courses/course-02-480x298.jpg" alt="" class="card-img">
+                        <img src="../assets/img-courses/stock-full-hd-03-480x298.jpg" alt="" class="card-img">
                     </div>
                     <div class="course-info">
-                        <p class="price">$40.00</p>
-                        <h2 class="course-name">Learning to Write as a Professional Author</h2>
-                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>20 Lessons <i class="far fa-user second-icon"></i>50 Student</p>
+                        <p class="price">Free</p>
+                        <h2 class="course-name">Customer-centric Info-Tech Strategies</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>24 Lessons <i class="far fa-user second-icon"></i>769 Student</p>
                     </div>
                 </div>
                 <div class="card-size">
                     <div class="card">
-                        <img src="../assets/img-courses/course-02-480x298.jpg" alt="" class="card-img">
+                        <img src="../assets/img-courses/stock-full-hd-04-480x298.jpg" alt="" class="card-img">
                     </div>
                     <div class="course-info">
-                        <p class="price">$40.00</p>
-                        <h2 class="course-name">Learning to Write as a Professional Author</h2>
-                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>20 Lessons <i class="far fa-user second-icon"></i>50 Student</p>
+                        <p class="price">$19.00</p>
+                        <h2 class="course-name">Open Programming Courses for Everyone: Python</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>17 Lessons <i class="far fa-user second-icon"></i>62 Student</p>
+                    </div>
+                </div>
+                <div class="card-size">
+                    <div class="card">
+                        <img src="../assets/img-courses/stock-full-hd-06-480x298.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="course-info">
+                        <p class="price">$26.00</p>
+                        <h2 class="course-name">Academy Listening and Note-taking</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>14 Lessons <i class="far fa-user second-icon"></i>67 Student</p>
+                    </div>
+                </div>
+                <div class="card-size">
+                    <div class="card">
+                        <img src="../assets/img-courses/course-featured-image-01-480x298.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="course-info">
+                        <p class="price">$39.00</p>
+                        <h2 class="course-name">Master jQuery in a Short Period of Time</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>6 Lessons <i class="far fa-user second-icon"></i>51 Student</p>
+                    </div>
+                </div>
+                <div class="card-size">
+                    <div class="card">
+                        <img src="../assets/img-courses/stock-full-hd-05-480x298.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="course-info">
+                        <p class="price">$59.00</p>
+                        <h2 class="course-name">Introduction to Javascript for Beginners</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>14 Lessons <i class="far fa-user second-icon"></i>76 Student</p>
                     </div>
                 </div>
                 
@@ -109,8 +139,7 @@ export default {
         }
 
         .card-courses{
-            width: 1084px;
-            height: 652px;            
+            width: 1084px;           
             margin-top: 25px;
             display: flex;
             flex-wrap: wrap;
@@ -119,6 +148,7 @@ export default {
                 width: 522px;
                 height: 172px;
                 display: flex;
+                margin: 0 20px 35px 0;
                 
 
                 &:hover{
