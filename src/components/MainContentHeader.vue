@@ -20,6 +20,7 @@
                     <img src="../assets/img-header/about-me-profile.jpg" alt="" class="profile-img">
                     <img src="../assets/img-header/maxcoach-shape-07-150x150.png" alt="" class="bg-image-2">
                     <img src="../assets/img-header/maxcoach-shape-08.png" alt="" class="bg-image-1">
+                    <img src="../assets/img-header/maxcoach-shape-02.png" alt="" class="bg-image-3">
                     
                 </div>
             </div>
@@ -114,6 +115,7 @@ export default {
                     .button{
                         padding: 3px;
                         margin-right: 2px;
+                        font-size: 15px;
                     }
 
                      &:hover{
@@ -158,6 +160,13 @@ export default {
                     top: 65%;
                     right: 15%;
                     z-index: 0;
+                }
+                .bg-image-3{
+                    position: absolute;
+                    width: 100px;
+                    height: 100px;
+                    top: 15%;
+                    left: 82%;
                 }
             }
         }

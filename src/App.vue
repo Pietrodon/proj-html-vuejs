@@ -2,14 +2,16 @@
   <div id="app">
     <HeaderComponent/>
     <MainContentHeader/>
+    <CoursesComponent/>
   </div>
     
   
 </template>
 
 <script>
-import  HeaderComponent from "./components/HeaderComponent.vue";
-import  MainContentHeader from "./components/MainContentHeader.vue"
+import  HeaderComponent    from "./components/HeaderComponent.vue";
+import  MainContentHeader  from "./components/MainContentHeader.vue"
+import  CoursesComponent   from "./components/CoursesComponent.vue"
 
 
 export default {
@@ -17,6 +19,7 @@ export default {
   components: {
     HeaderComponent,
     MainContentHeader,
+    CoursesComponent,
    
   }
 }
