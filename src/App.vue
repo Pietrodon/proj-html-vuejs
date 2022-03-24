@@ -3,6 +3,7 @@
     <HeaderComponent/>
     <MainContentHeader/>
     <CoursesComponent/>
+    
   </div>
     
   

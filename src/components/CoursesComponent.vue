@@ -7,11 +7,40 @@
                 <h2>Featured Online Courses</h2>
             </div>
             <div class="card-courses">
-                <div class="card">
-                    <img src="../assets/img-courses/course-02-480x298.jpg" alt="">
-
+                <div class="card-size">
+                    <div class="card">
+                        <img src="../assets/img-courses/course-02-480x298.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="course-info">
+                        <p class="price">$40.00</p>
+                        <h2 class="course-name">Learning to Write as a Professional Author</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>20 Lessons <i class="far fa-user second-icon"></i>50 Student</p>
+                    </div>
                 </div>
+                <div class="card-size">
+                    <div class="card">
+                        <img src="../assets/img-courses/course-02-480x298.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="course-info">
+                        <p class="price">$40.00</p>
+                        <h2 class="course-name">Learning to Write as a Professional Author</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>20 Lessons <i class="far fa-user second-icon"></i>50 Student</p>
+                    </div>
+                </div>
+                <div class="card-size">
+                    <div class="card">
+                        <img src="../assets/img-courses/course-02-480x298.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="course-info">
+                        <p class="price">$40.00</p>
+                        <h2 class="course-name">Learning to Write as a Professional Author</h2>
+                        <p class="class-info"><i class="far fa-file-alt first-icon"></i>20 Lessons <i class="far fa-user second-icon"></i>50 Student</p>
+                    </div>
+                </div>
+                
+
             </div>
+            
             <div>
                 <button @click="richiamo()">
                     View all courses 
@@ -81,14 +110,64 @@ export default {
 
         .card-courses{
             width: 1084px;
-            height: 652px;
-            border: 1px solid red;
+            height: 652px;            
             margin-top: 25px;
-
-            .card{
+            display: flex;
+            flex-wrap: wrap;
+            
+            .card-size{
                 width: 522px;
                 height: 172px;
-            }
+                display: flex;
+                
+
+                &:hover{
+                    background-color: #ffffff;
+                    cursor: pointer;
+                    border-radius: 28px;
+                }
+
+                .course-info{
+                    width: 323px;
+                    height: 133px;
+                    margin-left: 5%;
+                    
+                    .price{
+                        font-size: 25px;
+                        color: #25ab94;
+                        font-weight: 900;
+                        margin-bottom: -15px;
+                    }
+                    .course-name{
+                        color: #3F3A64;
+                        
+                    }
+                    .class-info{
+                        font-size: 13px;
+                        color: #9996AC;
+
+                        .first-icon{
+                            padding-right: 10px;
+                        }
+
+                        .second-icon{
+                            padding:0 10px 0 10px;
+                        }
+                    }
+                }
+
+                .card{
+                width: 170px;
+                height: 170px;
+
+                    .card-img{
+                        border-radius: 50%;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                     }
+                }
+            }           
         }
 
 

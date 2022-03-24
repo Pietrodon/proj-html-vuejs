@@ -51,11 +51,14 @@ export default {
     display: flex;
     justify-content: center;
     
+    
+    
 
     .nav-bar{
         width: 1170px;
         display: flex;
         justify-content: space-between;
+        
             
         img{
             margin-top: 28px;
@@ -70,6 +73,10 @@ export default {
                 list-style: none;
                 display: flex;
                 align-items: center;
+
+                i{
+                    cursor: pointer;
+                }
                 
                 .user{
                         font-size: 20px;
