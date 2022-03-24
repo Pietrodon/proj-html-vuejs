@@ -52,19 +52,19 @@
                     <img src="../assets/Nuova-cartella/maxcoach-shape-07.png" alt="" class="bg-rectangle">
                 </div>
                 <div class="description">
-                    <p>
+                    <p class="heading">
                         GET STARTED 
-                        <span>EFFORTLESSLY</span> 
+                        <span class="change-color">EFFORTLESSLY</span> 
                     </p>
-                    <h2>
+                    <h2 class="title-yt">
                         Enjoy Our 
-                        <span>Companionship</span>
+                        <span class="title-yt-cl">Companionship</span>
                     </h2>
-                    <p>
+                    <p class="description-yt">
                         Sneek peek into ehat has in store for you on our online teaching and mentoring portal. Seek for some hidden hints of early-bird rewards as well.
                     </p>
                     <p>
-                        <a href="#">
+                        <a href="#" class="dwl-guide ">
                             Download free guidebook
                             <i class="fas fa-arrow-right"></i>
                         </a>
@@ -177,6 +177,49 @@ export default {
         width: 1170px;
         height: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .description{
+           width: 400px; 
+           height: max-content;
+
+           .heading{
+             color: #aeadae;
+             font-size: 20px;
+
+             .change-color{
+                 color: #3F3A64;
+                 font-weight: 800;
+             }
+                        
+                        
+        }
+           .title-yt{
+             font-size: 50px;
+             color: #48495f;
+
+            .title-yt-cl{
+                color: #25ab94;
+            }
+             
+        }
+
+        .description-yt{
+            color: #aeadae;
+            font-size: 20px;
+        }
+        .dwl-guide{
+           color: #25ab94; 
+           text-decoration: none;
+           
+           &:hover{
+               text-decoration: underline;
+           }
+
+        }
+
+        }
         
 
         .image-video{
