@@ -5,6 +5,9 @@
     <CoursesComponent/>
     <SecondComponentMain/>
     <CarouselComponent/>
+    <NumberComponent/>
+    <BlogComponent/>
+
     
   </div>
     
@@ -12,12 +15,13 @@
 </template>
 
 <script>
-import  HeaderComponent    from "./components/HeaderComponent.vue";
-import  MainContentHeader  from "./components/MainContentHeader.vue";
-import  CoursesComponent   from "./components/CoursesComponent.vue";
+import  HeaderComponent       from "./components/HeaderComponent.vue";
+import  MainContentHeader     from "./components/MainContentHeader.vue";
+import  CoursesComponent      from "./components/CoursesComponent.vue";
 import  SecondComponentMain   from "./components/SecondComponentMain.vue";
-import  CarouselComponent   from "./components/CarouselComponent.vue";
-
+import  CarouselComponent     from "./components/CarouselComponent.vue";
+import  NumberComponent       from "./components/NumberComponent.vue";
+import  BlogComponent         from "./components/BlogComponent.vue";
 
 
 export default {
@@ -28,6 +32,8 @@ export default {
     CoursesComponent,
     SecondComponentMain,
     CarouselComponent,
+    NumberComponent,
+    BlogComponent,
    
   }
 }
