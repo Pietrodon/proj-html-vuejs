@@ -7,6 +7,7 @@
     <CarouselComponent/>
     <NumberComponent/>
     <BlogComponent/>
+    <SubscriveComponent/>
 
     
   </div>
@@ -22,6 +23,7 @@ import  SecondComponentMain   from "./components/SecondComponentMain.vue";
 import  CarouselComponent     from "./components/CarouselComponent.vue";
 import  NumberComponent       from "./components/NumberComponent.vue";
 import  BlogComponent         from "./components/BlogComponent.vue";
+import  SubscriveComponent    from "./components/SubscriveComponent.vue";
 
 
 export default {
@@ -34,6 +36,7 @@ export default {
     CarouselComponent,
     NumberComponent,
     BlogComponent,
+    SubscriveComponent
    
   }
 }

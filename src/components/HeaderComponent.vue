@@ -16,7 +16,7 @@
                     <i class="far fa-user-circle user"></i>
                 </ul>
                 <div class="search-container">
-                    <input type="text" placeholder="Search..." class="input-search" span>
+                    <input type="text" placeholder="Search..." class="input-search">
                     <i class="fas fa-search ricerca"></i>
 
                 </div>
