@@ -125,6 +125,7 @@ export default {
                     background-color: #ffffff;
                     cursor: pointer;
                     border-radius: 28px;
+                    
                 }
 
                 .course-info{
@@ -140,6 +141,10 @@ export default {
                     }
                     .course-name{
                         color: #3F3A64;
+                        
+                        &:hover{
+                            color: #25ab94;
+                        }
                         
                     }
                     .class-info{

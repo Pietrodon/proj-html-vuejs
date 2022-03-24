@@ -76,6 +76,10 @@ export default {
 
                 i{
                     cursor: pointer;
+                   
+                    &:hover{
+                        color: #25ab94;
+                    }
                 }
                 
                 .user{
@@ -90,6 +94,10 @@ export default {
                     a{
                         color: #0b0b0b;
                         text-decoration: none;
+
+                        &:hover{
+                        color: #25ab94;
+                    }
 
                         i{
                             padding: 3px;

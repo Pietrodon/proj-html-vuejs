@@ -68,8 +68,6 @@ export default {
     .main-content{
         width: 1170px;
         
-
-
         .client-img{
             display: flex;
             justify-content: center;
@@ -79,6 +77,10 @@ export default {
         .client-img img{
             padding: 40px;
             opacity: 0.5;
+
+            &:hover{
+                opacity: 1;
+            }
         }
         
         .content{
