@@ -67,10 +67,7 @@
                         <p class="class-info"><i class="far fa-file-alt first-icon"></i>14 Lessons <i class="far fa-user second-icon"></i>76 Student</p>
                     </div>
                 </div>
-                
-
-            </div>
-            
+            </div>            
             <div>
                 <button @click="richiamo()">
                     View all courses 
@@ -107,9 +104,9 @@ export default {
 .container-courses{
     background-color: #F5F7FA;
     width: 100vw;
-    height: 1140px;
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 
     .content-courses{
         width: 1170px;

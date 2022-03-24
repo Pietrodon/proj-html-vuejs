@@ -3,6 +3,7 @@
     <HeaderComponent/>
     <MainContentHeader/>
     <CoursesComponent/>
+    <SecondComponentMain/>
     
   </div>
     
@@ -11,8 +12,10 @@
 
 <script>
 import  HeaderComponent    from "./components/HeaderComponent.vue";
-import  MainContentHeader  from "./components/MainContentHeader.vue"
-import  CoursesComponent   from "./components/CoursesComponent.vue"
+import  MainContentHeader  from "./components/MainContentHeader.vue";
+import  CoursesComponent   from "./components/CoursesComponent.vue";
+import  SecondComponentMain   from "./components/SecondComponentMain.vue";
+
 
 
 export default {
@@ -21,6 +24,7 @@ export default {
     HeaderComponent,
     MainContentHeader,
     CoursesComponent,
+    SecondComponentMain,
    
   }
 }
