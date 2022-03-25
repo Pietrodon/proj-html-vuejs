@@ -25,7 +25,7 @@
               </div>
             </div>
             
-            <div class="card-carousel">
+            <div class="card-carousel active">
               <div class="description-carousel">
                 <h3 class="title-description">High level of effiency and scientific teaching methods</h3>
                 <p class="text-description">I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal fro people like me. </p>
@@ -119,8 +119,19 @@ export default {
         
       }
 
+      .active{
+        &:hover{
+          cursor: pointer;
+        }
+      }
+
       .non-active{
         opacity: 0.4;
+
+        &:hover{
+          opacity: 1;
+          cursor: pointer;
+        }
       }
 
       .carousel{
@@ -214,6 +225,7 @@ export default {
 
           &:hover{
             background-color:#3F3A64 ;
+            cursor: pointer;
           }
         }
       }

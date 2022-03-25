@@ -63,7 +63,7 @@
                     <p class="description-yt">
                         Sneek peek into ehat has in store for you on our online teaching and mentoring portal. Seek for some hidden hints of early-bird rewards as well.
                     </p>
-                    <p>
+                    <p @click="download()">
                         <a href="#" class="dwl-guide ">
                             Download free guidebook
                             <i class="fas fa-arrow-right"></i>
@@ -86,6 +86,11 @@ export default {
   components: {
 
    
+  },
+  methods:{
+      download: function(){
+          alert('Download in corso...')
+      }
   }
 }
 </script>

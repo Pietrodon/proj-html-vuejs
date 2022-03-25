@@ -9,7 +9,7 @@
               </h2>
               <p>Enter your email address to register to our newsletter subscription delivered on a regular basis!</p>
               </div>
-              <input type="email" placeholder="Enter your email">
+              <input type="email" placeholder="Enter your email" >
                 <div class="sub">
                   <button>Subscrive</button>
                 </div>
@@ -87,6 +87,7 @@ export default {
         .sub{
             width: max-content;
             height: max-content;
+            position: relative;
 
             button{
                 background-color: #25ab94;
@@ -94,7 +95,14 @@ export default {
                 font-weight: 800;
                 border: none;
                 position: absolute;
-                top: 15px;
+                bottom: 1px;
+                left: 64px;
+                padding: 12px;
+                border-radius: 0 8px 8px 0;
+
+                &:hover{
+                    background-color: #48495f;
+                }
             }
 
         }
